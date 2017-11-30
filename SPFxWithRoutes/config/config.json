@@ -1,0 +1,23 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "search-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/search/SearchWebPart.js",
+          "manifest": "./src/webparts/search/SearchWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "zone.js": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/zone.js/0.8.12/zone.min.js",
+      "globalName": "zone.js"
+    }    
+  },
+  "localizedResources": {
+    "SearchWebPartStrings": "lib/webparts/search/loc/{locale}.js"
+  }
+}

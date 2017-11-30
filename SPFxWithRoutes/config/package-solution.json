@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-search-rest-client-side-solution",
+    "id": "c518cb71-9e14-4377-a857-b3baf10b3a2d",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-search-rest.sppkg"
+  }
+}
