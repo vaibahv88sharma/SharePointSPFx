@@ -1,7 +1,11 @@
 npm install --g yo gulp
+
 npm install @microsoft/generator-sharepoint -g
+
 yo @microsoft/sharepoint
+
 gulp trust-dev-cert
+
 gulp serve
 
 
@@ -24,6 +28,7 @@ gulp serve
 npm install sp-pnp-js --save
 
 npm install --save reflect-metadata
+
 npm i --save @angular/animations
 
 
